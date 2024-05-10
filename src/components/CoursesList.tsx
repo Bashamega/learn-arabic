@@ -30,6 +30,7 @@ export function CoursesList() {
             {filteredCourses.map(element => (
                 <CourseCard key={element.id} course={element} />
             ))}
+            
         </section>
         </main>
     );

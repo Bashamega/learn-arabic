@@ -1,11 +1,10 @@
 export function TagColor(tag:string){
     switch (tag) {
         case "نحو":
-            return "#7F9F80"
-            break;
-    
+            return "#7F9F8080"
+        case "صرف":
+            return "#A2B3C4D5"
         default:
-            return;
-            break;
+            return "#E6A7F3B2";
     }
 }
