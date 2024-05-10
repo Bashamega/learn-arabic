@@ -10,7 +10,9 @@ export default function Page() {
     <main>
         <Nav/>
         {CourseExists(id)?(
-            <section></section>
+            <section className="h-screen pt-[10%]">
+              <iframe src={`https://cdn-learn-arabic.vercel.app/ebooks/Lesson${id}/index.html`} width={"100%"} height={"90%"}></iframe>
+            </section>
         ):(
             <NotFound/>
         )}
